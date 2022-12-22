@@ -12,4 +12,4 @@ Contents:
 
 [3] - metricsPsnr.m : Peak Signal To Noise Ratio.
 
-[3] - QABF.m : Questions About Behavioral Function.
+[4] - QABF.m : Questions About Behavioral Function.
