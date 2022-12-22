@@ -64,13 +64,10 @@ imshow(fimg, 'border', 'tight', 'initialmagnification', 'fit');
 set (gcf, 'Position',[0,0,450,450]);
 axis normal;
 %% MEASUREMERNT
-NIQE = niqe(fimg);fprintf('NIQE=%d\n',NIQE);
 MSSIM1=multissim(fimg,imgir);
 MSSIM2=multissim(fimg,imgvis);
-MSSIM=0.5*MSSIM1+0.5*MSSIM2;
-fprintf('MSSIM=%d\n',MSSIM);
+MSSIM=0.5*MSSIM1+0.5*MSSIM2;fprintf('MSSIM=%d\n',MSSIM);
 PSNR=metricsPsnr(imgir,imgvis,fimg);fprintf('PSNR=%d\n',PSNR);
-QCV = metricsQcv(imgir,imgvis,fimg);fprintf('QCV=%d\n',QCV);
 QAB = QABF(imgir, imgvis, fimg);fprintf('QAB=%d\n',QAB);
 CrossEN = crossentropy(fimg,imgir);fprintf('CrossEN=%d\n',CrossEN);
 mse1=mse(fimg,imgir);
