@@ -1,6 +1,6 @@
 READ ME
 
-author = {Ching-Che Tu1, Bo-Lin Jian},
+author = {Ching-Che Tu, Bo-Lin Jian},
 
 title = {A Multi-level Optimal Fusion Algorithm for Infrared and Visible Image},{Not yet published}
 
